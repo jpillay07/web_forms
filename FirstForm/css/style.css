@@ -11,6 +11,10 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
 }
 
 .submit-button{
@@ -27,3 +31,26 @@
     background-color: white;
     color: rgb(76, 76, 76);
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+
+  .name,.email,.textarea{
+    width:250px;
+  }
+
+  label{
+    display: inline-block;
+    align-self: flex-start;
+  }
+
+  .message-label{
+    vertical-align: top;
+  }
